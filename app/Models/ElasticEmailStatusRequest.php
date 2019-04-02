@@ -13,9 +13,8 @@ namespace ElasticEmailClient;
      * @package ElasticEmailClient
      */
 
-    include 'ElasticClient.php';
+    include 'ElasticEmailClient.php';
     include 'ElasticEmailStatusResponse.php';
-    include 'ApiConfiguration.php';
 
     class ElasticEmailStatusRequest
      {

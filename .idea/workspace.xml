@@ -1,7 +1,130 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="be6a33e3-4c07-4209-9295-54c3200f5975" name="Default" comment="" />
+    <list default="true" id="be6a33e3-4c07-4209-9295-54c3200f5975" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/laravel.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/laravel.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ElasticEmailStatusRequestController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ElasticEmailStatusRequestController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ElasticEmailApi/AccessToken.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ElasticEmailApi/Account.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ElasticEmailApi/Campaign.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ElasticEmailApi/Channel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ElasticEmailApi/Contact.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ElasticEmailApi/Domain.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ElasticEmailApi/EEList.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ElasticEmailApi/Email.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ElasticEmailApi/Export.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ElasticEmailApi/File.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ElasticEmailApi/Log.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ElasticEmailApi/SMS.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ElasticEmailApi/Segment.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ElasticEmailApi/Survey.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ElasticEmailApi/Template.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ElasticEmailClient/ApiConfiguration.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ElasticEmailClient/ElasticClient.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ElasticEmailClient/ElasticEmailStatusRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ElasticEmailClient/ElasticEmailStatusResponse.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ElasticEmailClient/ElasticRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ElasticEmailEnums/AccessLevel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ElasticEmailEnums/AccessToken.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ElasticEmailEnums/Account.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ElasticEmailEnums/AccountOverview.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ElasticEmailEnums/AdvancedOptions.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ElasticEmailEnums/BlockedContact.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ElasticEmailEnums/BouncedCategorySummary.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ElasticEmailEnums/Campaign.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ElasticEmailEnums/CampaignChannel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ElasticEmailEnums/CampaignStatus.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ElasticEmailEnums/CampaignTemplate.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ElasticEmailEnums/CampaignTriggerType.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ElasticEmailEnums/CertificateValidationStatus.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ElasticEmailEnums/Channel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ElasticEmailEnums/CompressionFormat.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ElasticEmailEnums/ConsentTracking.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ElasticEmailEnums/Contact.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ElasticEmailEnums/ContactCollection.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ElasticEmailEnums/ContactContainer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ElasticEmailEnums/ContactHistEventType.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ElasticEmailEnums/ContactHistory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ElasticEmailEnums/ContactSort.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ElasticEmailEnums/ContactSource.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ElasticEmailEnums/ContactStatus.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ElasticEmailEnums/ContactStatusCount.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ElasticEmailEnums/ContactUnsubscribeReasonCounts.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ElasticEmailEnums/CreditType.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ElasticEmailEnums/DailyLogStatusSummary.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ElasticEmailEnums/DomainDetail.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ElasticEmailEnums/EEList.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ElasticEmailEnums/EmailAddress.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ElasticEmailEnums/EmailCredits.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ElasticEmailEnums/EmailJobFailedStatus.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ElasticEmailEnums/EmailJobStatus.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ElasticEmailEnums/EmailSend.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ElasticEmailEnums/EmailView.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ElasticEmailEnums/EncodingType.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ElasticEmailEnums/EventLog.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ElasticEmailEnums/Export.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ElasticEmailEnums/ExportFileFormats.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ElasticEmailEnums/ExportLink.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ElasticEmailEnums/ExportStatus.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ElasticEmailEnums/ExportTypeCounts.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ElasticEmailEnums/File.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ElasticEmailEnums/InboundOptions.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ElasticEmailEnums/IntervalType.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ElasticEmailEnums/LinkTrackingDetails.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ElasticEmailEnums/Log.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ElasticEmailEnums/LogEventStatus.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ElasticEmailEnums/LogJobStatus.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ElasticEmailEnums/LogStatusSummary.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ElasticEmailEnums/LogSummary.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ElasticEmailEnums/MessageCategory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ElasticEmailEnums/NotificationType.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ElasticEmailEnums/Payment.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ElasticEmailEnums/Profile.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ElasticEmailEnums/QuestionType.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ElasticEmailEnums/Recipient.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ElasticEmailEnums/RecipientEvent.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ElasticEmailEnums/Referral.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ElasticEmailEnums/ReputationDetail.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ElasticEmailEnums/ReputationHistory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ElasticEmailEnums/ReputationImpact.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ElasticEmailEnums/Segment.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ElasticEmailEnums/SegmentHistory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ElasticEmailEnums/SendingPermission.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ElasticEmailEnums/SpamCheck.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ElasticEmailEnums/SpamRule.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ElasticEmailEnums/SplitOptimization.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ElasticEmailEnums/SubAccount.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ElasticEmailEnums/SubAccountSettings.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ElasticEmailEnums/SupportPlan.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ElasticEmailEnums/Survey.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ElasticEmailEnums/SurveyResultAnswer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ElasticEmailEnums/SurveyResultAnswerInfo.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ElasticEmailEnums/SurveyResultInfo.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ElasticEmailEnums/SurveyResultsSummaryInfo.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ElasticEmailEnums/SurveyStatus.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ElasticEmailEnums/SurveyStep.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ElasticEmailEnums/SurveyStepAnswer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ElasticEmailEnums/SurveyStepType.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ElasticEmailEnums/Template.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ElasticEmailEnums/TemplateList.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ElasticEmailEnums/TemplateScope.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ElasticEmailEnums/TemplateType.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ElasticEmailEnums/TrackedLink.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ElasticEmailEnums/TrackingType.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ElasticEmailEnums/TrackingValidationStatus.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ElasticEmailEnums/Usage.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ElasticEmailEnums/ValidationError.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ElasticEmailEnums/ValidationStatus.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ElasticEmailEnums/WebNotificationOptions.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ElasticEmailEnums/Webhook.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/test.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/testpage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,11 +137,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="test.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/test.php">
+      <file leaf-file-name="testpage.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/testpage.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="255">
+              <caret line="20" column="48" lean-forward="true" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -26,17 +149,17 @@
       <file leaf-file-name="web.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+            <state relative-caret-position="170">
+              <caret line="19" column="3" lean-forward="true" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.blade.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/test.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1309">
-              <caret line="77" column="55" lean-forward="true" selection-start-line="77" selection-start-column="55" selection-end-line="77" selection-end-column="55" />
+            <state relative-caret-position="340">
+              <caret line="77" column="55" selection-start-line="77" selection-start-column="55" selection-end-line="77" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -44,24 +167,50 @@
       <file leaf-file-name="ElasticEmailStatusRequestController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ElasticEmailStatusRequestController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+            <state relative-caret-position="259">
+              <caret line="21" column="53" lean-forward="true" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ElasticEmailClient.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Models/ElasticEmailClient.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="194" column="68" lean-forward="true" selection-start-line="194" selection-start-column="68" selection-end-line="194" selection-end-column="68" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ElasticEmailStatusRequest.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Models/ElasticEmailStatusRequest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="89">
+              <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/Models/ElasticEmailClient.php" />
         <option value="$PROJECT_DIR$/app/Models/ElasticEmailStatusResponse.php" />
+        <option value="$PROJECT_DIR$/resources/views/test.blade.php" />
+        <option value="$PROJECT_DIR$/public/test.php" />
+        <option value="$PROJECT_DIR$/app/Models/ElasticEmailClient/ElasticClient.php" />
+        <option value="$PROJECT_DIR$/app/Models/ElasticEmailClient/ElasticEmailStatusRequest.php" />
+        <option value="$PROJECT_DIR$/app/Models/ElasticEmailClient/ElasticRequest.php" />
+        <option value="$PROJECT_DIR$/app/Models/ElasticEmailApi/Email.php" />
         <option value="$PROJECT_DIR$/app/Models/ElasticEmailStatusRequest.php" />
         <option value="$PROJECT_DIR$/routes/web.php" />
-        <option value="$PROJECT_DIR$/public/test.php" />
-        <option value="$PROJECT_DIR$/resources/views/test.blade.php" />
+        <option value="$PROJECT_DIR$/app/Models/ElasticEmailClient.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/ElasticEmailStatusRequestController.php" />
+        <option value="$PROJECT_DIR$/public/testpage.php" />
       </list>
     </option>
   </component>
@@ -162,6 +311,8 @@
       <path value="$PROJECT_DIR$/vendor/guzzlehttp/promises" />
       <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
       <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/intervention/image" />
+      <path value="$PROJECT_DIR$/vendor/mews/captcha" />
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
@@ -170,6 +321,7 @@
     <option name="width" value="854" />
     <option name="height" value="1017" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -197,21 +349,12 @@
               <item name="laravel" type="b2602c69:ProjectViewProjectNode" />
               <item name="laravel" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="laravel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="laravel" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="Models" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="laravel" type="b2602c69:ProjectViewProjectNode" />
               <item name="laravel" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Models" type="462c0819:PsiDirectoryNode" />
-              <item name="ElasticEmailClient" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="laravel" type="b2602c69:ProjectViewProjectNode" />
@@ -267,24 +410,26 @@
       <updated>1554113949804</updated>
       <workItem from="1554113951111" duration="3907000" />
       <workItem from="1554125387461" duration="123000" />
-      <workItem from="1554125893223" duration="4726000" />
+      <workItem from="1554125893223" duration="6391000" />
+      <workItem from="1554190296859" duration="11898000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8756000" />
+    <option name="totallyTimeSpent" value="22319000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info id="npm" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.134009" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25977996" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.29054055" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2628362" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -306,110 +451,20 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/test.php">
+    <entry file="file://$PROJECT_DIR$/public/testpage.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="51">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/ElasticEmailStatusRequest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="7" selection-start-line="7" selection-end-line="8" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/ElasticEmailStatusResponse.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="7" selection-start-line="7" selection-end-line="8" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/ElasticEmailClient.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4879">
-          <caret line="309" column="27" selection-start-line="309" selection-start-column="27" selection-end-line="309" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/test.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/ElasticEmailStatusRequest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="8" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/ElasticEmailStatusResponse.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="8" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/ElasticEmailClient.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4879">
-          <caret line="309" column="27" lean-forward="true" selection-start-line="309" selection-start-column="27" selection-end-line="309" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/ElasticEmailApi/AccessToken.php" />
-    <entry file="file://$PROJECT_DIR$/app/Models/ElasticEmailClient/ElasticClient.php" />
-    <entry file="file://$PROJECT_DIR$/app/Models/ElasticEmailStatusResponse.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="7" selection-start-line="7" selection-end-line="8" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/ElasticEmailStatusRequest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="7" selection-start-line="7" selection-end-line="8" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/ElasticEmailClient.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="309" column="27" selection-start-line="309" selection-start-column="27" selection-end-line="309" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="99" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/app/Models/ElasticEmailClient/ElasticClient.php">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/test.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ElasticEmailStatusRequestController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -417,6 +472,114 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1309">
           <caret line="77" column="55" lean-forward="true" selection-start-line="77" selection-start-column="55" selection-end-line="77" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ElasticEmailStatusRequestController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/testpage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/ElasticEmailStatusRequest.php" />
+    <entry file="file://$PROJECT_DIR$/app/Models/ElasticEmailStatusResponse.php" />
+    <entry file="file://$PROJECT_DIR$/app/Models/ElasticEmailClient.php" />
+    <entry file="file://$PROJECT_DIR$/public/testpage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/ElasticEmailStatusRequest.php" />
+    <entry file="file://$PROJECT_DIR$/app/Models/ElasticEmailStatusResponse.php" />
+    <entry file="file://$PROJECT_DIR$/app/Models/ElasticEmailClient.php" />
+    <entry file="file://$PROJECT_DIR$/app/Models/ElasticEmailStatusResponse.php" />
+    <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/ElasticEmailClient/ElasticClient.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/ElasticEmailClient/ElasticEmailStatusRequest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/ElasticEmailApi/AccessToken.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/ElasticEmailClient/ElasticRequest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-340">
+          <caret line="13" column="11" lean-forward="true" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/ElasticEmailApi/Email.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="155" column="5" lean-forward="true" selection-start-line="155" selection-start-column="5" selection-end-line="155" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/test.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="77" column="55" selection-start-line="77" selection-start-column="55" selection-end-line="77" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/testpage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="20" column="48" lean-forward="true" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="19" column="3" lean-forward="true" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/ElasticEmailStatusRequest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ElasticEmailStatusRequestController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="21" column="53" lean-forward="true" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/ElasticEmailClient.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="194" column="68" lean-forward="true" selection-start-line="194" selection-start-column="68" selection-end-line="194" selection-end-column="68" />
         </state>
       </provider>
     </entry>
